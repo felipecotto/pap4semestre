@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    min-height: 100vh; 
+    height: 100%;
+}
+
+
+.d_table {
+    display: table; 
+    table-layout: fixed; 
+    width: 100%; 
+}
+
+.d_table_cell {
+    display: table-cell; 
+    vertical-align: middle; 
+}
+
+.m_b_20px {
+    margin-bottom: 20px;
+}
