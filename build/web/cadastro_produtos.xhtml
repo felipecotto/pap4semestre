@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Sistema PAP | Cadastro de Produtos</title>
+        <link rel="StyleSheet" type="text/css" href="css/reset.css" media="screen" ></link>
+        <link rel="StyleSheet" type="text/css" href="css/bootstrap.css" media="screen" ></link>
+        <link rel="StyleSheet" type="text/css" href="css/style.css" media="screen" ></link>
+    </h:head>
+    <h:body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Sistema PAP</a>
+                </div>
+                <ul class="nav navbar-nav pull-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Clientes
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Consultas</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Produtos
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Consultas</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Garantia <small>(Acesso Restrito)</small>
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Consultas</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pedidos
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Consultas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h3>Cadastro de Produtos</h3>
+                <h:form action="#">
+                <div class="form-group">
+                    <label>Nome</label>
+                    <input type="text" placeholder="nome" class="form-control"></input>
+                    <label>Número de Série</label>
+                    <input type="email" placeholder="número de séries" class="form-control"></input>
+                    <label>Cor</label>
+                    <input type="text" placeholder="cor" class="form-control"></input>
+                    <label>Observações</label>
+                    <textarea class="form-control m_b_20px"></textarea>
+                    <div class="text-center">
+                        <button class="btn btn-primary">Salvar</button>
+                    </div>
+
+                    <hr></hr>
+                </div>
+                </h:form>
+            </div>
+        <footer>
+            <div class="container text-center">
+                <hr></hr>
+                <p>Ada Tec - Todos os direitos reservados</p>
+            </div>
+        </footer>
+    </h:body>
+</html>
+

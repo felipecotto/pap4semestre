@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Sistema PAP | Pedidos </title>
+        <link rel="StyleSheet" type="text/css" href="css/reset.css" media="screen" ></link>
+        <link rel="StyleSheet" type="text/css" href="css/bootstrap.css" media="screen" ></link>
+        <link rel="StyleSheet" type="text/css" href="css/style.css" media="screen" ></link>
+    </h:head>
+    <h:body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Sistema PAP</a>
+                </div>
+                <ul class="nav navbar-nav pull-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Clientes
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Consultas</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Produtos
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Consultas</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Garantia <small>(Acesso Restrito)</small>
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Consultas</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pedidos
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Consultas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h3>Pedidos</h3>
+                <h:form action="#">
+                <div class="form-group">
+                    <label>Produto</label>
+                    <input type="text" placeholder="produto" class="form-control"></input>
+                    <label>Quantidade</label>
+                    <select type="email" placeholder="e-mail" class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <div class="row m_b_20px">
+                        <div class="col-md-6">
+                            <label>Data do Pedido</label>
+                            <input type="text" placeholder="  /  /  " class="form-control"></input>
+                        </div>
+                        <div class="col-md-6">
+                            <label>Vencimento da Garantia </label>
+                            <input type="text" placeholder="  /  /  " class="form-control"></input>
+                        </div>
+                        <div class="col-md-6">
+                            <label>Valor Unitario</label>
+                            <input type="text" placeholder="R$" class="form-control"></input>
+                        </div>
+                        <div class="col-md-6">
+                            <label>Valor Total </label>
+                            <input type="text" placeholder="R$" class="form-control"></input>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <button class="btn btn-primary">Finalizar Pedido</button>
+                    </div>
+                </div>
+                </h:form>
+            </div>
+        <footer>
+            <div class="container text-center">
+                <hr></hr>
+                <p>Ada Tec - Todos os direitos reservados</p>
+            </div>
+        </footer>
+    </h:body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
+
