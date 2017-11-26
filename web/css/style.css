@@ -16,6 +16,13 @@ body {
     vertical-align: middle; 
 }
 
+.box-login {
+    background-color: #f5f5f5; 
+    border-radius: 3px;
+    padding: 30px;
+    border: solid 1px #c5c5c5;
+}
+
 .m_b_20px {
     margin-bottom: 20px;
 }
